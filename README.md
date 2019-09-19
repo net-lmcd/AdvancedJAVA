@@ -3,8 +3,7 @@
   
  ## WeakReference
   
- 앱 개발이 마무리 단계에 들어가면서 직면하는 문제는 MemoryLeak입니다
- 이것에 대한 해결책으로 WeakReference(약한 참조)가 제시된다
+ 앱 개발 마무리 단계에 들어가면서 직면하는 문제는 MemoryLeak이다. 이것의 해결책으로 WeakReference(약한 참조)가 제시되곤 한다.
  
  1. WeakReference vs StrongReference
  
