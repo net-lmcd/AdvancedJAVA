@@ -22,3 +22,8 @@
   위 코드는 단순히 new()메소드로 생성해서, wrapping한 객체이다. 이렇게 생성한 객체는 mWeak객체의 get()메소드로 얻어온다.user객체에 null을 대입하면 User객체
   에 대한 접근은 WeakReference의 mWeak로만 가능하게 된다. WeakReference에 의해서만접근할 수 있는 상태가 될때, reachability가 약하다고 할 수 있다. 이 
   상태가 되면 가비지컬렉터가 동작하면 WeakReference객체에 대한 참조값을 null로 해주고, 메모리상에서 정리대상이 될수 있다는 것이다. 
+
+ ## MVVM pattern with AAC
+
+ 
+ 
