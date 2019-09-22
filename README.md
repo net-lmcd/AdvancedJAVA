@@ -47,7 +47,7 @@
   View에 영향을 끼칠 수 있는 Model의 상태도 관리한다.
   View 또는 액티비티 Context에 대한 레퍼런스를 가져서는 안된다. View는 ViewModel의 레퍼런스를 가지지만, ViewModel은 View에 대한 정보가 전혀 없어야 한다.
   
- -> 정리
+  - 정리
  
   View, Model, ViewModel은 서로의 존재를 알지 못해야 한다.
   ViewModel에서 View에게 갱신을 알리기 위해서는, Observable 또는 DataBinding을 사용해야 한다. 즉 ViewModel의 데이터가 수정되더라도, View에서는 수정할
@@ -55,5 +55,5 @@
   Model에는 데이터와 관련한 소스만, View는 화면과 관련한 소스만 넣는다. View에서 만약 데이터에 의한 변경들이 있으면 ViewModel의 옵저버 등을 통해서 값이 
   변경되었음을 알고 변경할 수 있다.
 
-  자세한 내용은 https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm 참고하면 된다.
+  자세한 내용은 https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm 참고한다.
  
